@@ -25,7 +25,7 @@ extension Flutter3xFormatters on FilteringTextInputFormatter {
   ///
   /// [Eastern Arabic Numerals]: https://en.wikipedia.org/wiki/Eastern_Arabic_numerals
   /// [Western Arabic Numerals]: https://en.wikipedia.org/wiki/Arabic_numerals
-  List<TextInputFormatter> get digitsOnlyWithReplacingArabicNumeralsFromEastToWest {
+  static List<TextInputFormatter> get digitsOnlyWithReplacingArabicNumeralsFromEastToWest {
     final replacementRules = arabicNumeralsEastToWest.keys.map(
       (key) {
         return FilteringTextInputFormatter.deny(

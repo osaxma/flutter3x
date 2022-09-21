@@ -1,6 +1,6 @@
 name: flutter3x
 description: A collection of extensions and reusable functions for flutter projects
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/osaxma/flutter3x
 
 environment:
